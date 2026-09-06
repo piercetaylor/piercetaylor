@@ -2,7 +2,8 @@
 
 Two blocks are rewritten in place, each delimited by HTML comments:
 `recent_releases` lists the newest release of each public repository that has
-one, and `recent_activity` lists the repositories pushed to most recently. The
+one, and `recent_activity` lists the repositories pushed to most recently. Forks,
+archived repositories and this profile repository itself are left out. The
 script is idempotent; if nothing has changed the file is left untouched and the
 workflow makes no commit.
 """
@@ -49,7 +50,7 @@ def main():
     repos = [
         repo
         for repo in api(f"/users/{USER}/repos?sort=pushed&per_page=100&type=owner")
-        if not repo["fork"] and not repo["archived"]
+        if not repo["fork"] and not repo["archived"] and repo["name"] != USER
     ]
 
     releases = []

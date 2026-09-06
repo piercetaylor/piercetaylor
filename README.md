@@ -200,8 +200,6 @@ No tagged releases yet.
 
 **Recently pushed**
 <!-- recent_activity starts -->
-[piercetaylor](https://github.com/piercetaylor/piercetaylor) - 2026-09-06
-
 [ml-methods-health-data](https://github.com/piercetaylor/ml-methods-health-data) - 2026-09-04
 
 [CarnivorEnzyme](https://github.com/piercetaylor/CarnivorEnzyme) - 2026-09-02
@@ -211,6 +209,8 @@ No tagged releases yet.
 [af3-to-amber-md-sim](https://github.com/piercetaylor/af3-to-amber-md-sim) - 2026-09-01
 
 [corn-nutrient-response](https://github.com/piercetaylor/corn-nutrient-response) - 2026-08-27
+
+[muidsi-hackathon-2026](https://github.com/piercetaylor/muidsi-hackathon-2026) - 2026-02-20
 <!-- recent_activity ends -->
 
 </td></tr></table>
