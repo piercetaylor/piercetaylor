@@ -107,7 +107,7 @@
 <td><a href="https://github.com/piercetaylor/muidsi-hackathon-2026">muidsi-hackathon-2026</a></td>
 <td><img alt="Python" src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"></td>
 <td><img alt="Stars" src="https://img.shields.io/github/stars/piercetaylor/muidsi-hackathon-2026?style=flat-square&label=%20"></td>
-<td>AgriFlow — a LangGraph agent that answers natural-language questions about Missouri food supply chains across crop, census, disaster, and weather data. Built for the MUIDSI Hackathon 2026.</td>
+<td>AgriFlow — a LangGraph agent that answers natural-language questions about Missouri food supply chains across crop, census, disaster, and weather data. Fourth place, MUIDSI Hackathon 2026.</td>
 </tr>
 </tbody>
 </table>
@@ -129,23 +129,29 @@
 
 ### CarnivorEnzyme
 
-Build the structural atlas for one lineage and score the stability of every substitution:
+Create the environment, check the DAG, then run phase 1 locally and phase 2 on Slurm:
 
 ```bash
-snakemake --profile profiles/slurm --config lineage=Nepenthes
-streamlit run app/main.py
+conda env create -f environment.yml && conda activate carnivorenzyme
+snakemake -n
+snakemake --use-conda phase1 --cores 4
+snakemake --use-conda phase2 --executor slurm --profile config/slurm/
 ```
 
 ### af3-to-amber-md-sim
 
-Prepare an AlphaFold3 model, then run the wild-type and mutant systems through equilibration and production MD:
+Build the topology, then chain minimisation, NVT, NPT and production for the wild-type system so
+each stage waits on the one before it:
 
 ```bash
-chimerax --nogui chimerax/prep_and_mutate.cxc
-tleap -f inputs/tleap_WT.in
-sbatch slurm/01_minimize.sh && sbatch slurm/02_heat.sh
-sbatch --dependency=afterok:$JOBID slurm/03_production.sh
+tleap -f inputs/tleap_WT.in 2>&1 | tee logs/tleap_WT.log
+EM_WT=$(sbatch --parsable scripts/em_WT.sh)
+NVT_WT=$(sbatch --parsable --dependency=afterok:${EM_WT} scripts/nvt_WT.sh)
+NPT_WT=$(sbatch --parsable --dependency=afterok:${NVT_WT} scripts/npt_WT.sh)
+PROD_WT=$(sbatch --parsable --dependency=afterok:${NPT_WT} scripts/prod_WT.sh)
 ```
+
+The mutant system runs the same four stages from the `_MUT` scripts.
 
 ## Pinned Repositories
 
