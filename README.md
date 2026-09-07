@@ -49,17 +49,9 @@
 **Current focus**
 
 - Transcription-factor / DNA recognition in plant bHLHs
-- AlphaFold3 into MD workflows (GROMACS, AMBER)
-- DAP-seq, RNA-seq, and scRNA-seq pipelines in Snakemake
+- DAP-seq, RNA-seq, and scRNA-seq analysis workflows
 - Comparative structural biology of carnivorous-plant digestive enzymes
-- Decision-support tools for marker-assisted breeding
 
-**Methods I use**
-
-- AlphaFold3, Chai-1, HADDOCK, APBS, EVcouplings
-- GROMACS, AMBER, CryoSPARC, ChimeraX
-- Scanpy / Seurat, MEME-ChIP, Bioconductor
-- Y2H/Y1H, EMSA, MST, DLS In-Fusion / Gateway cloning
 
 </td>
 </tr>
