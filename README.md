@@ -41,7 +41,7 @@
 - M.S. candidate in Plant, Insect & Microbial Sciences at the [University of Missouri](https://cafnr.missouri.edu/) (Mendoza-Cózatl Lab), with a Graduate Certificate in Health Data Science. B.S. in Plant Science and Technology from the University of Missouri. 
 - I designed and teach PLNT_SCI 7001, a graduate NGS bioinformatics course (read QC through differential expression, peak calling, and analysis on an HPC cluster).
 - I build Snakemake workflows, analysis scripts, and small applications for breeders and lab groups and try to keep every result reproducible from primary data.
-- Co-founder at [Nexession](https://nexession.com). Open to collaboration on computational structural biology, plant genomics, and research software.
+
 
 </td>
 <td valign="top" width="45%">
@@ -51,6 +51,7 @@
 - Transcription-factor / DNA recognition in plant bHLHs
 - DAP-seq, RNA-seq, and scRNA-seq analysis workflows
 - Comparative structural biology of carnivorous-plant digestive enzymes
+- Co-founder at [Nexession](https://nexession.com). Open to collaboration on computational structural biology, plant genomics, and research software.
 
 
 </td>
