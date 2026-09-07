@@ -39,8 +39,7 @@
 
 - I work at the intersection of structural biology, genomics, and software engineering, mostly in plants.
 - M.S. candidate in Plant, Insect & Microbial Sciences at the [University of Missouri](https://cafnr.missouri.edu/) (Mendoza-Cózatl Lab), with a Graduate Certificate in Health Data Science. B.S. in Plant Science and Technology from the University of Missouri. 
-- Thesis: structure-guided mutagenesis of ILR3, a bHLH regulator of iron homeostasis in *Arabidopsis* AlphaFold3/Chai-1 modeling, FoldX and HADDOCK, MD simulation, then wet lab experimentation to test the predictions.
-- I designed and teach PLNT_SCI 7001, a graduate NGS bioinformatics course (read QC through differential expression, peak calling, and single-cell analysis on an HPC cluster).
+- I designed and teach PLNT_SCI 7001, a graduate NGS bioinformatics course (read QC through differential expression, peak calling, and analysis on an HPC cluster).
 - I build Snakemake workflows, analysis scripts, and small applications for breeders and lab groups and try to keep every result reproducible from primary data.
 - Co-founder at [Nexession](https://nexession.com). Open to collaboration on computational structural biology, plant genomics, and research software.
 
