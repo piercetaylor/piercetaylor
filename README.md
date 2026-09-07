@@ -89,7 +89,7 @@
 <td><a href="https://github.com/piercetaylor/ml-methods-health-data">ml-methods-health-data</a></td>
 <td><img alt="Python" src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"></td>
 <td><img alt="Stars" src="https://img.shields.io/github/stars/piercetaylor/ml-methods-health-data?style=flat-square&label=%20"></td>
-<td>Four machine learning method families on public medical data — classification, clustering, association rules, and regression — sharing one gated pipeline with a paired leakage comparison.</td>
+<td>Four machine learning method families on public medical data. All perform the data science life cycle of classification, clustering, association rules, and regression while sharing one gated pipeline with a paired leakage comparison.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/piercetaylor/brain-mri-imaging">brain-mri-imaging</a></td>
@@ -107,7 +107,7 @@
 <td><a href="https://github.com/piercetaylor/muidsi-hackathon-2026">muidsi-hackathon-2026</a></td>
 <td><img alt="Python" src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"> <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"></td>
 <td><img alt="Stars" src="https://img.shields.io/github/stars/piercetaylor/muidsi-hackathon-2026?style=flat-square&label=%20"></td>
-<td>AgriFlow — a LangGraph agent that answers natural-language questions about Missouri food supply chains across crop, census, disaster, and weather data. Fourth place, MUIDSI Hackathon 2026.</td>
+<td>AgriFlow, a LangGraph agent chain that answers natural-language questions about Missouri food supply chains across crop, census, disaster, and weather data. Fourth place, MUIDSI Hackathon 2026.</td>
 </tr>
 </tbody>
 </table>
