@@ -198,9 +198,9 @@ No tagged releases yet.
 
 **Recently pushed**
 <!-- recent_activity starts -->
-[ml-methods-health-data](https://github.com/piercetaylor/ml-methods-health-data) - 2026-09-04
+[CarnivorEnzyme](https://github.com/piercetaylor/CarnivorEnzyme) - 2026-09-08
 
-[CarnivorEnzyme](https://github.com/piercetaylor/CarnivorEnzyme) - 2026-09-02
+[ml-methods-health-data](https://github.com/piercetaylor/ml-methods-health-data) - 2026-09-04
 
 [brain-mri-imaging](https://github.com/piercetaylor/brain-mri-imaging) - 2026-09-02
 
