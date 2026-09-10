@@ -28,9 +28,15 @@ trajectory analysis of alveolar epithelial state coherence in lethal COVID-19.
 Snakemake workflows for DAP-seq, RNA-seq and scRNA-seq, and the PLNT_SCI 7001 course material,
 are not public yet. They will be linked here as they are released.
 
+## Elsewhere
+
 [Email](mailto:pmt5gt@umsystem.edu) ·
 [ORCID](https://orcid.org/0009-0003-5125-5716) ·
-[LinkedIn](https://www.linkedin.com/in/pierce-taylor)
+[LinkedIn](https://www.linkedin.com/in/pierce-taylor) ·
+[GitHub](https://github.com/piercetaylor) ·
+[Repositories](https://github.com/piercetaylor?tab=repositories) ·
+[Stars](https://github.com/piercetaylor?tab=stars) ·
+[Nexession](https://nexession.com)
 
 <!--
 Descriptions held for repositories that are not public yet. Move a line into the Projects table
