@@ -6,10 +6,6 @@ plant science from computer engineering at Missouri S&T, and most of what I do s
 two: predicting how plant transcription factors recognize DNA, then building the pipelines that
 test those predictions at the bench.
 
-My thesis is a structure-guided mutagenesis of ILR3, a bHLH transcription factor that regulates
-iron homeostasis in *Arabidopsis*. Dimer–DNA models from AlphaFold3 and Chai-1 nominate contact
-residues, FoldX and HADDOCK score substitutions at those positions, and molecular dynamics checks
-whether the complexes hold. DAP-seq, EMSA and MST measure what the substitutions did to binding.
 
 I designed and teach PLNT_SCI 7001, a graduate NGS bioinformatics course that runs from read QC
 through differential expression, peak calling and single-cell analysis on the university's Slurm
