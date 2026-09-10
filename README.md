@@ -198,17 +198,17 @@ No tagged releases yet.
 
 **Recently pushed**
 <!-- recent_activity starts -->
+[field-capture-android](https://github.com/piercetaylor/field-capture-android) - 2026-09-09
+
+[progeny-selector](https://github.com/piercetaylor/progeny-selector) - 2026-09-09
+
+[isoline-browser](https://github.com/piercetaylor/isoline-browser) - 2026-09-09
+
+[structure-evidence-curator](https://github.com/piercetaylor/structure-evidence-curator) - 2026-09-09
+
 [CarnivorEnzyme](https://github.com/piercetaylor/CarnivorEnzyme) - 2026-09-08
 
 [ml-methods-health-data](https://github.com/piercetaylor/ml-methods-health-data) - 2026-09-04
-
-[brain-mri-imaging](https://github.com/piercetaylor/brain-mri-imaging) - 2026-09-02
-
-[af3-to-amber-md-sim](https://github.com/piercetaylor/af3-to-amber-md-sim) - 2026-09-01
-
-[corn-nutrient-response](https://github.com/piercetaylor/corn-nutrient-response) - 2026-08-27
-
-[muidsi-hackathon-2026](https://github.com/piercetaylor/muidsi-hackathon-2026) - 2026-02-20
 <!-- recent_activity ends -->
 
 </td></tr></table>
