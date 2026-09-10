@@ -1,5 +1,13 @@
 # Pierce Taylor
 
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pmt5gt@umsystem.edu)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--5125--5716-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0003-5125-5716)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-pierce--taylor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pierce-taylor)
+[![GitHub](https://img.shields.io/badge/GitHub-piercetaylor-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/piercetaylor)
+[![Repositories](https://img.shields.io/badge/Repositories-0A7EA4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/piercetaylor?tab=repositories)
+[![Stars](https://img.shields.io/badge/Stars-E3B341?style=for-the-badge&logo=github&logoColor=white)](https://github.com/piercetaylor?tab=stars)
+[![Nexession](https://img.shields.io/badge/Nexession-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nexession.com)
+
 I am a master's student in Plant, Insect and Microbial Sciences at the University of Missouri,
 working in the Mendoza-Cózatl Lab, with a graduate certificate in Health Data Science.
 
@@ -19,16 +27,6 @@ cluster. I also co-founded [Nexession](https://nexession.com).
 
 Snakemake workflows for DAP-seq, RNA-seq and scRNA-seq, and the PLNT_SCI 7001 course material,
 are not public yet. They will be linked here as they are released.
-
-## Elsewhere
-
-[Email](mailto:pmt5gt@umsystem.edu) ·
-[ORCID](https://orcid.org/0009-0003-5125-5716) ·
-[LinkedIn](https://www.linkedin.com/in/pierce-taylor) ·
-[GitHub](https://github.com/piercetaylor) ·
-[Repositories](https://github.com/piercetaylor?tab=repositories) ·
-[Stars](https://github.com/piercetaylor?tab=stars) ·
-[Nexession](https://nexession.com)
 
 <!--
 Descriptions held for repositories that are not public yet. Move a line into the Projects table
