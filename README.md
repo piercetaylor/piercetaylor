@@ -16,14 +16,6 @@ cluster. I also co-founded [Nexession](https://nexession.com).
 | [ml-methods-health-data](https://github.com/piercetaylor/ml-methods-health-data) | Classification, clustering, association rules and regression on public medical data, sharing one gated pipeline. Includes a paired comparison of each method with and without target leakage. |
 | [brain-mri-imaging](https://github.com/piercetaylor/brain-mri-imaging) | Reads 59,713 DICOM headers to report what would stop a glioblastoma cohort being pooled, then trains a convolutional network on 32×32 tumor patches from axial T1 post-contrast slices. |
 | [corn-nutrient-response](https://github.com/piercetaylor/corn-nutrient-response) | Multivariate analysis of a 34 site-year Nebraska fertilizer trial, testing whether applied phosphorus and potassium raised grain yield once nitrogen supply, plant stand and irrigation were accounted for. |
-| [muidsi-hackathon-2026](https://github.com/piercetaylor/muidsi-hackathon-2026) | AgriFlow, a LangGraph agent that answers questions about Missouri food supply chains from crop, census, disaster and weather data. Created for the MUIDSI Hackathon 2026. |
-
-Several of these began as graduate coursework and were rebuilt from public data; each repository
-names the course and the term it came from.
-
-I also work with [@ChimdiWalter](https://github.com/ChimdiWalter) on
-[alveolar-dispersion-covid19](https://github.com/ChimdiWalter/alveolar-dispersion-covid19), a
-trajectory analysis of alveolar epithelial state coherence in lethal COVID-19.
 
 Snakemake workflows for DAP-seq, RNA-seq and scRNA-seq, and the PLNT_SCI 7001 course material,
 are not public yet. They will be linked here as they are released.
