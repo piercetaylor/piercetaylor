@@ -1,21 +1,17 @@
 # Pierce Taylor
 
 I am a master's student in Plant, Insect and Microbial Sciences at the University of Missouri,
-working in the Mendoza-Cózatl Lab, with a graduate certificate in Health Data Science. I came to
-plant science from computer engineering at Missouri S&T, and most of what I do sits between the
-two: predicting how plant transcription factors recognize DNA, then building the pipelines that
-test those predictions at the bench.
-
+working in the Mendoza-Cózatl Lab, with a graduate certificate in Health Data Science.
 
 I designed and teach PLNT_SCI 7001, a graduate NGS bioinformatics course that runs from read QC
-through differential expression, peak calling and single-cell analysis on the university's Slurm
+through differential expression, peak calling, and motif analysis on the university's HPC
 cluster. I also co-founded [Nexession](https://nexession.com).
 
 ## Projects
 
 | Project | What it does |
 | --- | --- |
-| [CarnivorEnzyme](https://github.com/piercetaylor/CarnivorEnzyme) | Structural atlas of digestive enzymes from carnivorous plant lineages that evolved carnivory independently. AlphaFold3 structures, FoldX stability scoring, EVmutation and AutoDock Vina docking, run as a Snakemake workflow. |
+| [CarnivorEnzyme](https://github.com/piercetaylor/CarnivorEnzyme) (IN-PROGRESS)| Structural atlas of digestive enzymes from carnivorous plant lineages that evolved carnivory independently. AlphaFold3 structures, FoldX stability scoring, EVmutation and AutoDock Vina docking, run as a Snakemake workflow. |
 | [af3-to-amber-md-sim](https://github.com/piercetaylor/af3-to-amber-md-sim) | Takes an AlphaFold3 protein–DNA model through ChimeraX cleanup, `tleap` topology building, and a staged equilibration and production MD run on a Slurm cluster, for a wild-type and a mutant system in parallel. |
 | [ml-methods-health-data](https://github.com/piercetaylor/ml-methods-health-data) | Classification, clustering, association rules and regression on public medical data, sharing one gated pipeline. Includes a paired comparison of each method with and without target leakage. |
 | [brain-mri-imaging](https://github.com/piercetaylor/brain-mri-imaging) | Reads 59,713 DICOM headers to report what would stop a glioblastoma cohort being pooled, then trains a convolutional network on 32×32 tumor patches from axial T1 post-contrast slices. |
