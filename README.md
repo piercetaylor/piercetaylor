@@ -6,14 +6,13 @@
 [![GitHub](https://img.shields.io/badge/GitHub-piercetaylor-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/piercetaylor)
 [![Repositories](https://img.shields.io/badge/Repositories-0A7EA4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/piercetaylor?tab=repositories)
 [![Stars](https://img.shields.io/badge/Stars-E3B341?style=for-the-badge&logo=github&logoColor=white)](https://github.com/piercetaylor?tab=stars)
-[![Nexession](https://img.shields.io/badge/Nexession-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nexession.com)
 
 I am a master's student in Plant, Insect and Microbial Sciences at the University of Missouri,
 working in the Mendoza-Cózatl Lab, with a graduate certificate in Health Data Science.
 
 I designed and teach PLNT_SCI 7001, a graduate NGS bioinformatics course that runs from read QC
 through differential expression, peak calling, and motif analysis on the university's HPC
-cluster. I also co-founded [Nexession](https://nexession.com).
+cluster.
 
 ## Projects
 
