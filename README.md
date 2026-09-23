@@ -23,10 +23,11 @@ cluster.
 | [brain-mri-imaging](https://github.com/piercetaylor/brain-mri-imaging) | Reads 59,713 DICOM headers to report what would stop a glioblastoma cohort being pooled, then trains a convolutional network on 32×32 tumor patches from axial T1 post-contrast slices. |
 | [corn-nutrient-response](https://github.com/piercetaylor/corn-nutrient-response) | Multivariate analysis of a 34 site-year Nebraska fertilizer trial, testing whether applied phosphorus and potassium raised grain yield once nitrogen supply, plant stand and irrigation were accounted for. |
 
-Snakemake workflows for DAP-seq, RNA-seq and scRNA-seq, and the PLNT_SCI 7001 course material,
-are not public yet. They will be linked here as they are released.
+
 
 <!--
+Snakemake workflows for DAP-seq, RNA-seq and scRNA-seq, and the PLNT_SCI 7001 course material,
+are not public yet. They will be linked here as they are released.
 Descriptions held for repositories that are not public yet. Move a line into the Projects table
 once the repository is released.
 | [CarnivorEnzyme](https://github.com/piercetaylor/CarnivorEnzyme) (IN-PROGRESS)| Structural atlas of digestive enzymes from carnivorous plant lineages that evolved carnivory independently. AlphaFold3 structures, FoldX stability scoring, EVmutation and AutoDock Vina docking, run as a Snakemake workflow. |
