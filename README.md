@@ -1,46 +1,30 @@
 # Pierce Taylor
 
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pmt5gt@umsystem.edu)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--5125--5716-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0003-5125-5716)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-pierce--taylor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pierce-taylor)
-[![GitHub](https://img.shields.io/badge/GitHub-piercetaylor-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/piercetaylor)
-[![Repositories](https://img.shields.io/badge/Repositories-0A7EA4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/piercetaylor?tab=repositories)
-[![Stars](https://img.shields.io/badge/Stars-E3B341?style=for-the-badge&logo=github&logoColor=white)](https://github.com/piercetaylor?tab=stars)
+Pierce Taylor works in plant science, bioinformatics, and applied data analysis at the University of Missouri. He teaches graduate next-generation sequencing analysis in PLNT_SCI 7001.
 
-I am a master's student in Plant, Insect and Microbial Sciences at the University of Missouri,
-working in the Mendoza-Cózatl Lab, with a graduate certificate in Health Data Science.
+[Email](mailto:pmt5gt@umsystem.edu) · [ORCID](https://orcid.org/0009-0003-5125-5716) · [LinkedIn](https://www.linkedin.com/in/pierce-taylor)
 
-I designed and teach PLNT_SCI 7001, a graduate NGS bioinformatics course that runs from read QC
-through differential expression, peak calling, and motif analysis on the university's HPC
-cluster.
+## Plant breeding and phenotyping
 
-## Projects
-
-| Project | What it does |
+| Project | Focus |
 | --- | --- |
-| [af3-to-amber-md-sim](https://github.com/piercetaylor/af3-to-amber-md-sim) | Takes an AlphaFold3 protein–DNA model through ChimeraX cleanup, `tleap` topology building, and a staged equilibration and production MD run on a Slurm cluster, for a wild-type and a mutant system in parallel. |
-| [ml-methods-health-data](https://github.com/piercetaylor/ml-methods-health-data) | Classification, clustering, association rules and regression on public medical data, sharing one gated pipeline. Includes a paired comparison of each method with and without target leakage. |
-| [brain-mri-imaging](https://github.com/piercetaylor/brain-mri-imaging) | Reads 59,713 DICOM headers to report what would stop a glioblastoma cohort being pooled, then trains a convolutional network on 32×32 tumor patches from axial T1 post-contrast slices. |
-| [corn-nutrient-response](https://github.com/piercetaylor/corn-nutrient-response) | Multivariate analysis of a 34 site-year Nebraska fertilizer trial, testing whether applied phosphorus and potassium raised grain yield once nitrogen supply, plant stand and irrigation were accounted for. |
+| [backcross](https://github.com/piercetaylor/backcross) | This browser-based tool compares near-isogenic and backcross-derived lines with their parents using SNP genotypes. |
+| [progeny-selector](https://github.com/piercetaylor/progeny-selector) | This Python and Shiny application ranks progeny for marker-assisted backcross breeding using target loci, recurrent-parent recovery, and quality-control flags. |
+| [sundew-segmenting](https://github.com/piercetaylor/sundew-segmenting) | This research pipeline acquires, curates, and annotates sundew images for plant segmentation. |
 
-Snakemake workflows for DAP-seq, RNA-seq and scRNA-seq, and the PLNT_SCI 7001 course material,
-are not public yet. They will be linked here as they are released.
+## Computational biology and medical data
 
-<!--
-Descriptions held for repositories that are not public yet. Move a line into the Projects table
-once the repository is released.
-| [CarnivorEnzyme](https://github.com/piercetaylor/CarnivorEnzyme) (IN-PROGRESS)| Structural atlas of digestive enzymes from carnivorous plant lineages that evolved carnivory independently. AlphaFold3 structures, FoldX stability scoring, EVmutation and AutoDock Vina docking, run as a Snakemake workflow. |
+| Project | Focus |
+| --- | --- |
+| [af3-to-amber-md-sim](https://github.com/piercetaylor/af3-to-amber-md-sim) | This workflow prepares AlphaFold 3 protein–DNA models for Amber molecular dynamics simulations on a Slurm cluster. |
+| [brain-mri-imaging](https://github.com/piercetaylor/brain-mri-imaging) | This analysis examines brain MRI metadata and trains a model on glioblastoma image patches. |
+| [ml-methods-health-data](https://github.com/piercetaylor/ml-methods-health-data) | This project applies classification, clustering, association rules, and regression to public medical datasets. |
+| [alveolar-dispersion-covid19](https://github.com/piercetaylor/alveolar-dispersion-covid19) | This fork contains an analysis of alveolar epithelial cell states in lethal COVID-19. |
 
-PLNT_SCI-7001 — graduate NGS bioinformatics course: lectures, HPC exercises, and worked RNA-seq, ChIP/DAP-seq and scRNA-seq pipelines.
-snakemake-dapseq — DAP-seq from FASTQ to peaks, motifs (MEME-ChIP/FIMO) and gene targets against Araport11, with a pure-Python peak-to-gene join.
-snakemake-rnaseq — bulk RNA-seq: QC, trimming, STAR/Salmon, DESeq2 and report generation.
-snakemake-scrnaseq — scRNA-seq: Cell Ranger/STARsolo, QC, integration, clustering and annotation with Scanpy.
-af3-gromacs-md — AlphaFold3 model to GROMACS MD as a Snakemake workflow with Slurm profiles.
-ilr3-structural-mutagenesis — the thesis work: AF3/Chai-1 dimer-DNA models, FoldX PositionScan, HADDOCK, EVcouplings, APBS, and WT vs. K76A/E80A/R84A MD, with the DAP-seq and MST analysis.
-covid19-lung-snrnaseq — reanalysis of the Melms et al. 2021 COVID-19 lung atlas: QC, integration, cell-type annotation and differential abundance.
-cdtb-cryoem — CryoSPARC processing of C. difficile CDTb: 501 micrographs, 31,175 particles, 4.4 A map with C7 symmetry. BIOCHEM 9200.
-isoline-browser — browser-only NIL evaluation against the recurrent parent: parent-of-origin calls, recurrent-parent proportion, donor segments, linkage-drag bounds, graphical genotypes.
-progeny-selector — marker-assisted backcross selection: foreground and background scoring, recombinant flanks, weighted ranking, next-round sample manifests.
-field-capture-android — offline-first field app for public breeders: geotagged spoken plot notes, GPS-tracked video walks, Field Book-compatible import/export, weather and soil layers.
-netbox-drift — operational-state drift detection for NetBox Community Edition: NAPALM and gNMI collectors, three-way diff engine, deviation lifecycle, Prometheus metrics, containerlab CI.
--->
+## Field data and public work
+
+| Project | Focus |
+| --- | --- |
+| [corn-nutrient-response](https://github.com/piercetaylor/corn-nutrient-response) | This analysis examines corn yield responses to nutrients across a Nebraska field trial. |
+| [muidsi-hackathon-2026](https://github.com/piercetaylor/muidsi-hackathon-2026) | This hackathon project explores food supply chain data with AgriFlow. |
+| [MU Plant Diagnostic Clinic articles](https://github.com/piercetaylor/mu-pdc-articles) | This index links to nine co-authored field-crop reports and plant disease fact sheets published by MU IPM and MU Extension. |
