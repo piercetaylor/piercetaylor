@@ -18,6 +18,7 @@ cluster.
 
 | Project | What it does |
 | --- | --- |
+| [sundew-segmenting](https://github.com/piercetaylor/sundew-segmenting) | Reproducible sundew image acquisition, curation, annotation, and segmentation research pipeline. |
 | [af3-to-amber-md-sim](https://github.com/piercetaylor/af3-to-amber-md-sim) | Takes an AlphaFold3 protein–DNA model through ChimeraX cleanup, `tleap` topology building, and a staged equilibration and production MD run on a Slurm cluster, for a wild-type and a mutant system in parallel. |
 | [ml-methods-health-data](https://github.com/piercetaylor/ml-methods-health-data) | Classification, clustering, association rules and regression on public medical data, sharing one gated pipeline. Includes a paired comparison of each method with and without target leakage. |
 | [brain-mri-imaging](https://github.com/piercetaylor/brain-mri-imaging) | Reads 59,713 DICOM headers to report what would stop a glioblastoma cohort being pooled, then trains a convolutional network on 32×32 tumor patches from axial T1 post-contrast slices. |
