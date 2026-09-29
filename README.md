@@ -9,7 +9,7 @@
 
 I am a master's student in Plant, Insect and Microbial Sciences at the University of Missouri,
 working in the Mendoza-Cózatl Lab, with a graduate certificate in Health Data Science.
-
+<!--
 I designed and teach PLNT_SCI 7001, a graduate NGS bioinformatics course that runs from read QC
 through differential expression, peak calling, and motif analysis on the university's HPC
 cluster.
@@ -26,7 +26,7 @@ cluster.
 
 
 
-<!--
+
 Snakemake workflows for DAP-seq, RNA-seq and scRNA-seq, and the PLNT_SCI 7001 course material,
 are not public yet. They will be linked here as they are released.
 Descriptions held for repositories that are not public yet. Move a line into the Projects table
